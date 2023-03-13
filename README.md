@@ -1,16 +1,7 @@
-# flutter_application_1
+# Task App
 
-A new Flutter project.
+![](https://raw.githubusercontent.com/alura-cursos/alura_flutter_curso_2/master/flutter2_gif.gif)
 
-## Getting Started
+## Sobre
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este projeto é um aplicativo que criar tarefas de estudos, onde o usúário poderá evouluir a cada estudo.
