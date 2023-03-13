@@ -27,11 +27,11 @@ class _TaskState extends State<Task> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(12.0),
       child: Column(
         children: [
           Container(
-            width: 360,
+            width: MediaQuery.of(context).size.width,
             height: 100,
             color: Colors.white,
             child: Padding(
@@ -94,7 +94,7 @@ class _TaskState extends State<Task> {
           Stack(
             children: [
               Container(
-                width: 360,
+                width: MediaQuery.of(context).size.width,
                 height: 50,
                 color: Colors.blue,
               ),

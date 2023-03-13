@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/form_page.dart';
 
 import '../components/task.dart';
 
@@ -19,15 +20,21 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
         leading: const Icon(Icons.school_rounded),
       ),
-      body: Column(children: const [
-        Task(
+      body: Column(children: [
+        const Task(
           title: "Flutter",
           difficultLevel: 1,
         ),
-        Task(
+        const Task(
           title: "Run",
           difficultLevel: 3,
         ),
+        ElevatedButton(
+            onPressed: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const FormPage()));
+            },
+            child: const Icon(Icons.add)),
       ]),
     );
   }
